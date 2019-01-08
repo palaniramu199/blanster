@@ -1,0 +1,8 @@
+#check whether a number is positive or negative or zero
+a=int(input("enter the value:"))
+if a/1==a:
+	print("positive")
+elif a/-1==-a:
+	print("negative")
+else:
+	print("zero")
