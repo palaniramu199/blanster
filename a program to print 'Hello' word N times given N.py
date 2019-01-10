@@ -1,5 +1,5 @@
 i=0
-while i<2:
-	print("hello")
+while i<5:
+	print("Hello")
 	i+=1
 	
