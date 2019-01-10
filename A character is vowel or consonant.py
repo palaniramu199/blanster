@@ -9,9 +9,13 @@ if( s=='a'|| s=='e' || s=='i' || s=='o' || s=='u' || s=='A' || s=='E' || s=='I' 
 {
  printf("vowels");
 }
+ else if(s=='!'|| s=='@'|| s=='#'|| s=='$' || s=='%' || s=='&')
+         {
+          printf("invalid");
+      }
  else
  {
-  printf("consonant");
+  printf("Consonant");
 }
 getch();
 }
