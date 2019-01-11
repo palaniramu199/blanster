@@ -1,4 +1,4 @@
-n=5
+n=2
 sum = 0
 while(n > 0):
     sum+=n
