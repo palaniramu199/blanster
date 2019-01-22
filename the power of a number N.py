@@ -1,4 +1,4 @@
 firstval=2
-secondval=3
+secondval=2
 power=firstval**secondval
 print(power)
