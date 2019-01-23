@@ -7,6 +7,6 @@ while temp>0:
 	temp=temp//10
 if num==sum:
 	print("yes")
-else
+else:
 	print("no")
 	
