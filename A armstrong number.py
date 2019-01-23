@@ -1,4 +1,4 @@
-num=371
+num=12
 sum=0
 temp=num
 while temp>0:
