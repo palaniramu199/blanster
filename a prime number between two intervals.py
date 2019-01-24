@@ -1,4 +1,4 @@
-for num in range(1,10):
+for num in range(1,8):
 	for dist in range(2,50):
 		if num%dist==0:
 			break
