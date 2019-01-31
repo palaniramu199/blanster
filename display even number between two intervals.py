@@ -1,8 +1,8 @@
 def main():
-  m=int(input(""))
-  n=int(input(""))
-  for i in range(m+1,n+1):
-    if(i%2==0):
-        print(i)
+  a=int(input(""))
+  b=int(input(""))
+  for num in range(a+1,b+1):
+    if(num%2==0):
+        print(num)
 if __name__ == '__main__':
     main()
