@@ -1,10 +1,9 @@
-#N,A,D=input().split()
-#N,A,D=int(N),int(A),int(D)
-N,A,D=5,1,0
+N,A,D=input().split()
+N,A,D=int(N),int(A),int(D)
 value=0
 total=0
-while A>=0:
+while N>=0:
     total+=value
-    value+=N
-    A-=1
+    value+=A
+    N-=1
 print(total)
