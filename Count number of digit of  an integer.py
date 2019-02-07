@@ -1,9 +1,9 @@
 #no of digits
 import sys
-n = int(input('enter n : '))
+num = int(input('enter n : '))
 sum = 0
-a = n
-while a > 0 :
+value1 = num
+while value1 > 0 :
     sum += 1
-    a //= 10
+    value1 //= 10
 print(sum)
