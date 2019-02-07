@@ -1,4 +1,4 @@
 import sys, string
-s1, s2 = input().split()
-s = s1 + s2
-print(s)
+n1, n2 = input().split()
+n = n1 + n2
+print(n)
