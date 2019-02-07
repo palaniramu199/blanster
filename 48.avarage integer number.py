@@ -1,4 +1,4 @@
 import sys, string
-n= input()
-L = list(map(int,input().split()))
-print(sum(L) // len(L))
+num= input()
+value = list(map(int,input().split()))
+print(sum(value) // len(value))
