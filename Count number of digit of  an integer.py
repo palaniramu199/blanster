@@ -1,11 +1,9 @@
-def main():
-    count = 0
-    number = int(input(""))
-    while (number > 0):
-      number = number//10
-      count = count + 1
-    print (count)
-
-if __name__ == '__main__':
-    main()
-
+#no of digits
+import sys
+n = int(input('enter n : '))
+sum = 0
+a = n
+while a > 0 :
+    sum += 1
+    a //= 10
+print(sum)
