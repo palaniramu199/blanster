@@ -1,9 +1,9 @@
 import sys, string
-n = int(input())
-L = []
-while n :
-    a = n%10
-    L.append(a)
-    n //= 10
-L = L[::-1]
-print(*L)
+num = int(input())
+value = []
+while num :
+    a = num%10
+    value.append(a)
+    num //= 10
+value = value[::-1]
+print(*value)
