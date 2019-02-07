@@ -1,7 +1,5 @@
-a=int(input())
-if a%2==0:
-	print("Even")
-elif a%2==1:
-	print("Odd")
-else:
-	print("Not valid")
+#check odd or even
+import sys
+num = int(input('enter a no : '))
+if num%2==0 :  print('Even')
+else :  print('Odd')
