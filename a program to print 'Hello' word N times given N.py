@@ -1,5 +1,5 @@
-i=0
-while i<2:
-	print("\nHello")
-	i+=1
-	
+#print'Hello' N times
+import sys
+num = int(input('enter N : '))
+for i in range(num) :
+    print('Hello')
