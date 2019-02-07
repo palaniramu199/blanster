@@ -1,6 +1,6 @@
 import sys, string
 a = input()
 b = 0
-for i in a :
-    if i.isalnum() or i.isspace() or i=='_': b += 1
+for c in a :
+    if c.isalnum() or c.isspace() or c=='_': b += 1
 print(len(a)-b)
