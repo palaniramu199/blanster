@@ -1,0 +1,7 @@
+import sys, string
+n=input()
+for c in n:
+	if c =='a' or c=='i' or c=='e' or c=='o' or c=='u' or c =='A' or c=='I' or c=='E' or c=='O' or c=='U':
+		print("yes")
+	else:
+		print("no")
