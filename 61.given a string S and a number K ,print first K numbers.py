@@ -1,4 +1,4 @@
 import sys, string
 S,K = input().split()
-K = int(n)
+K = int(K)
 print(S[:K])
