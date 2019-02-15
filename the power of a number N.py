@@ -1,4 +1,3 @@
-firstval=2
-secondval=3
+firstval,secondval=map(int,input().split())
 power=firstval**secondval
 print(power)
