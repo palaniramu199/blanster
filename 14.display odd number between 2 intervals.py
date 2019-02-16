@@ -1,6 +1,5 @@
 def main():
-  a=1
-  b=6
+  a,b=map(int,input().split())
   for value in range(a+1,b+1):
     if(value%2!=0):
         print(value)
