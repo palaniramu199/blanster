@@ -1,6 +1,5 @@
 def main():
-  a=6
-  b=9
+  a,b=map(int,input().split())
   #a=int(input(""))
   #b=int(input(""))
   for num in range(a+1,b+1):
