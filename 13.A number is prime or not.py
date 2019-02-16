@@ -1,4 +1,4 @@
-num=11
+num=int(input())
 for dist in range(2,50):
 	if num%dist==0:
 		print("no")
