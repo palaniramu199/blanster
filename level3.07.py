@@ -1,12 +1,12 @@
 import sys, string, math
-n = int(input())
-L = list(map(int,input().split()))
+N = int(input())
+n = list(map(int,input().split()))
 L2 = []
-for i in range(0,len(L)) :
+for i in range(0,len(n)) :
     if (i+1)%2 == 1 :
-        if L[i] %2 == 1 :
-            L2.append(L[i])
+        if n[i] %2 == 1 :
+            L2.append(n[i])
     else :
-        if L[i] %2 == 0 :
-            L2.append(L[i])
+        if n[i] %2 == 0 :
+            L2.append(n[i])
 print(*L2)
