@@ -1,6 +1,6 @@
-n,m=map(int,input().split())
-a=list(map(int,input().split()))
-b=len(a)
-c=b-m
-for i in range(c+1,n+1):
-    print(i,end=' ')
+n,k=map(int,input().split())
+l=list(map(int,input().split()))
+s=[]
+for i in range(n-k,n):
+	s.append(str(l[i]))
+print(" ".join(s))
