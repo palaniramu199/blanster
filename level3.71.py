@@ -1,6 +1,6 @@
 n,k=map(int,input().split())
-l=list(map(int,input().split()))
-s=[]
+m=list(map(int,input().split()))
+sum=[]
 for i in range(n-k,n):
-	s.append(str(l[i]))
-print(" ".join(s))
+	sum.append(str(m[i]))
+print(" ".join(sum))
