@@ -5,5 +5,8 @@ for i in n:
   a=n.count(i)
   if a>1:
     s.append(i)
+  else:
+    print("unique")
+    break
 m=set(s)
 print(*m)
