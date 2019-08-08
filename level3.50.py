@@ -1,8 +1,8 @@
 a,b=map(int,input().split())
 if b>a:
     print(0)
-elif b==a:
-    print(1)
+elif a==b:
+    print("1")
 else:
     sum=0
     while a>=b:
