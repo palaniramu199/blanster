@@ -1,4 +1,3 @@
-import sys
 n=int(input())
 a=[2,3,5,7]
 for i in range(2,n):
@@ -13,5 +12,4 @@ for i in range(0,len(a)):
         #print(j)
         if a[i]+a[j]==n:
             sum+=1
-            
 print(sum)
