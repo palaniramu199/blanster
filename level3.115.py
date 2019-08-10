@@ -1,15 +1,17 @@
-n=int(input())
-a=[2,3,5,7]
-for i in range(2,n):
-    if i%2==0 or i%3==0 or i%5==0 or i%7==0:
-        continue
-    if i%2==1 or i%3==1 or i%5==1 or i%7==1 or i%9==1:
-        a.append(i)
-sum=0
-for i in range(0,len(a)):
-    #print(i)
-    for j in range(i,len(a)):
-        #print(j)
-        if a[i]+a[j]==n:
-            sum+=1
-print(sum)
+import sys,string
+
+def isPrime(n) :
+    if n==1 : return False
+    if n==2 or n==3 : return True
+    for i in range(2,n) :
+        if n%i == 0 :
+            return False
+    return True
+
+n = int(input())
+cnt = 0
+for i in range(2,n//2+1) :
+    if isPrime(i) and isPrime(n-i)  :
+        cnt += 1
+        #print(i,n-i,cnt)
+print(cnt)
